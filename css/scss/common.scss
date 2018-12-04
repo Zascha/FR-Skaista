@@ -1,0 +1,14 @@
+%ordinary-text {
+    font-family: "OpenSans";
+    font-size: $m-size;
+}
+
+%ordinary-black-text {
+    color: $black;
+    @extend %ordinary-text;
+}
+
+%ordinary-black-text {
+    color: $white;
+    @extend %ordinary-text;
+}
