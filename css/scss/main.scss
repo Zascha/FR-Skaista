@@ -2,8 +2,20 @@
 @import 'consts';
 @import 'common';
 
-@import '_top-menu';
+@import '_top-menu-section';
+@import '_start-section';
 
-div {
-    border: 1px solid red;
+/*div, .navbar { border: 1px solid red;}*/
+
+a, a:hover, a:active, a:visited{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+textarea{
+	resize: none;
+}
+
+.container-fluid{
+	cursor: default;
 }

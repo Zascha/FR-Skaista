@@ -1,0 +1,89 @@
+.section-start
+{
+	background-color: rgba(77, 77, 77, 0.6);
+	min-height: 400px;
+	padding: 60px 0;
+	
+	.section-start-text-block{
+		color: $white;
+		font-family: 'Montserrat';
+		font-size: 60px;
+		padding-left: 100px;
+		text-shadow: 0 3px 3px #151514;
+		
+		.highlighted{
+			color: $orange;
+			text-transform: uppercase;
+		}
+		
+		.section-start-text-block-divider{
+			border-bottom: 2px solid $white;
+			margin: 20px 0 10px 0;
+			width: 85%;
+		}
+		
+		.section-start-text-block-countries{
+			@extend %ordinary-white-text;
+			font-size: 25px;		
+			text-transform: uppercase;
+			width: 85%;
+		}
+	}
+	
+	.section-start-form-block{
+		background-color: rgba(256, 256, 256, 0.5);
+		padding: 40px 30px;
+		
+		.section-start-form-block-header{
+			@extend %ordinary-grey-text;
+			font-size: 20px;
+			font-weight: bold;
+			padding-bottom: 10px;
+			text-transform: uppercase;
+			
+			.section-start-form-block-company{
+				display: flex;
+				margin-right: 10px;
+				
+				img{
+					@include square-icon(45px);
+				}
+			}
+		}
+		
+		.section-start-form-block-divider{
+			border-top: 1px solid $grey;
+			margin: 0 auto 10px auto;
+			width: 80%;
+		}
+		
+		.top-feedback-form-validation-message{
+			color: #d44950;
+			display: none;
+			text-align: center;
+		}
+		
+		.top-feedback-form{
+			padding-top: 30px;
+			
+			.form-group{
+				display: flex;
+				margin-bottom: 20px;
+				
+				.form-control{
+					border-radius: 0;
+				}
+				
+				.submit-button{
+					@extend %submit-button;					
+				}
+			}	
+
+			.btn-group{
+				margin-bottom: 0;
+			}			
+		}
+	}
+	
+	
+}

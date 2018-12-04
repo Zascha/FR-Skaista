@@ -8,7 +8,35 @@
     @extend %ordinary-text;
 }
 
-%ordinary-black-text {
+%ordinary-grey-text {
+    color: $grey;
+    @extend %ordinary-text;
+}
+
+%ordinary-white-text {
     color: $white;
     @extend %ordinary-text;
+}
+
+%ordinary-yellow-text {
+    color: $yellow;
+    font-family: "OpenSans";
+    font-size: $m-size*1.25;
+}
+
+%submit-button{
+	@extend %ordinary-white-text;
+	border: 0;
+	border-radius: 0;
+	background-color: $orange;
+	text-transform: uppercase;
+}
+
+@mixin square-icon($size) {
+	height: $size;
+	width: $size;
+}
+
+@mixin backround-transperent-grey($transperancyPercent) {
+	background-color: rgba(77, 77, 77, $transperancyPercent);
 }

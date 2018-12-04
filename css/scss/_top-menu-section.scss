@@ -1,0 +1,94 @@
+.section-top-menu
+{
+    background-color: $grey;
+	
+	.navbar{
+		.section-top-menu-logo{	
+			align-items: center;
+			display: flex;			
+		
+			img{
+				@include square-icon(30px);
+				margin-right: 10px;
+			}
+			
+			span{
+				@extend %ordinary-yellow-text;
+				display: none;
+				text-transform: uppercase;
+				padding-top: 5px;
+				
+				@media (max-width: 991.98px) {
+					display: inline;
+				}
+			}
+		}
+		
+		.section-top-menu-content{
+			
+			a, a:hover, a:active, a:visited{
+				@extend %ordinary-white-text;
+			}
+						
+			.section-top-menu-items{
+				a, a:hover, a:active, a:visited{
+					margin-right: 25px;
+					text-transform: uppercase;
+					
+					@media (max-width: 991.98px) {
+						margin-right: 0;
+						margin-top: 10px;
+						text-align: right;
+					}					
+				}
+				
+				a:last-child{
+					@media (max-width: 991.98px) {						
+						border-bottom: 1px solid $white;
+						margin-bottom: 10px;
+						padding-bottom: 10px;
+					}
+				}
+			}
+			
+			.section-top-menu-contacts{
+				align-items: center;
+				display: flex;
+				justify-content: space-between;
+				
+				@media (max-width: 991.98px) {	
+				    align-items: flex-start;
+					flex-direction: column;					
+				}
+					
+				.section-top-menu-contacts-item{
+					@extend %ordinary-white-text;
+					margin-left: 25px;
+					
+					@media (max-width: 991.98px) {
+						margin-bottom: 10px;						
+						margin-left: 0;				
+					}
+					
+					.section-top-menu-contacts-item-icon{
+						height: auto;
+						margin-right: 5px;
+						width: 15px;
+					}
+				}
+				
+				.section-top-menu-languages{
+					margin-left: 25px;
+					
+					.dropdown-menu{
+						@include backround-transperent-grey(0.7);
+						
+						.dropdown-item:hover{
+							@include backround-transperent-grey(0.5);
+						}
+					}
+				}
+			}
+		}
+	}
+}
