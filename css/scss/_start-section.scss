@@ -22,7 +22,7 @@
         .section-start-text-block-divider {
             border-bottom: 2px solid $white;
             margin: 20px 0 10px 0;
-            width: 85%;
+            width: 75%;
 
             @media (max-width: 991.98px) {
                 margin-bottom: 20px;
@@ -33,7 +33,7 @@
             @extend %ordinary-white-text;
             font-size: $headers-size;
             text-transform: uppercase;
-            width: 85%;
+            width: 75%;
 
             @media (max-width: 991.98px) {
                 flex-direction: column;

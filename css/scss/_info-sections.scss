@@ -64,16 +64,13 @@
 
         .carousel-item {
             height: 500px;
-
-            @media (max-width: 991.98px) {
-                height: auto;
-            }
-
+			
             img {
+				height: 500px;
                 width: 100%;
 
                 @media (max-width: 991.98px) {
-                    height: 200px;
+                    height: auto;
                     width: auto;
                 }
             }
