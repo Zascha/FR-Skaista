@@ -1,6 +1,6 @@
 %ordinary-text {
     font-family: "OpenSans";
-    font-size: $m-size;
+    font-size: $plain-text-size;
 }
 
 %ordinary-black-text {
@@ -21,7 +21,7 @@
 %ordinary-yellow-text {
     color: $yellow;
     font-family: "OpenSans";
-    font-size: $m-size*1.25;
+    font-size: $headers-size;
 }
 
 %submit-button{
@@ -30,13 +30,4 @@
 	border-radius: 0;
 	background-color: $orange;
 	text-transform: uppercase;
-}
-
-@mixin square-icon($size) {
-	height: $size;
-	width: $size;
-}
-
-@mixin backround-transperent-grey($transperancyPercent) {
-	background-color: rgba(77, 77, 77, $transperancyPercent);
 }

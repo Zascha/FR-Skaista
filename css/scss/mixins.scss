@@ -1,0 +1,8 @@
+@mixin square-icon($size) {
+	height: $size;
+	width: $size;
+}
+
+@mixin backround-transperent-grey($transperancyPercent) {
+	background-color: rgba(77, 77, 77, $transperancyPercent);
+}
