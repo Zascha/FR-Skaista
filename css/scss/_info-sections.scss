@@ -1,0 +1,138 @@
+.info-section {
+    .info-section-header {
+        color: $grey;
+        font-family: "Montserrat";
+        font-size: $extra-headers-size*0.75;
+        padding: 50px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .info-section-content {
+        margin-bottom: 50px;
+        @media (max-width: 991.98px) {
+            flex-direction: column;
+        }
+    }
+}
+
+.info-title-section {
+    background-color: $grey;
+    color: $white;
+    font-family: "Montserrat";
+    font-size: $extra-headers-size*0.75;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.section-services {
+    .info-section-content .info-section-content-service {
+        text-align: center;
+        width: 30%;
+
+        @media (max-width: 991.98px) {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        img {
+            height: 200px;
+            margin-bottom: 30px;
+            width: auto;
+        }
+
+        .info-section-content-service-title {
+            @extend %ordinary-yellow-text;
+            text-transform: uppercase;
+        }
+
+        .info-section-content-service-description {
+            text-align: justify;
+        }
+    }
+
+    .info-section-content .info-section-content-service:last-child {
+        margin-right: 0;
+    }
+}
+
+.section-projects, .section-investment {
+    .carousel {
+        width: 100%;
+
+        .carousel-item {
+            height: 500px;
+
+            @media (max-width: 991.98px) {
+                height: auto;
+            }
+
+            img {
+                width: 100%;
+
+                @media (max-width: 991.98px) {
+                    height: 200px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+.section-team {
+    .info-section-content {
+        flex-wrap: wrap;
+
+        .info-section-content-team-member {
+            background-color: rgba(128, 128, 128, 0.1);
+            margin-bottom: 40px;
+            padding: 20px;
+            width: 48%;
+
+            @media (max-width: 991.98px) {
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .info-section-content-team-photo img {
+                border-radius: 50%;
+                height: 150px;
+                width: 150px;
+
+                @media (max-width: 991.98px) {
+                    height: 80%;
+                    width:80%;
+                }
+            }
+
+            .info-section-content-team-data {
+                margin-left: 20px;
+
+                @media (max-width: 991.98px) {
+                    margin-top: 20px;
+                }
+
+                .team-member-name {
+                    @extend %ordinary-yellow-text;
+                    font-size: $headers-size;
+                    text-transform: uppercase;
+                }
+            }
+
+            .team-member-position {
+                font-size: $headers-size*0.75;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.section-investment {
+    .carousel-item iframe{
+        height: 100%;
+        width: 100%;
+    }
+}

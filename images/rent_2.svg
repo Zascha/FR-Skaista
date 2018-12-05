@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="19.304mm" height="17.5258mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1930 1753"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#4D4D4D;stroke-width:42.33}
+    .str5 {stroke:#4D4D4D;stroke-width:42.33}
+    .str1 {stroke:#4D4D4D;stroke-width:42.33;stroke-linejoin:round}
+    .str3 {stroke:#4D4D4D;stroke-width:42.33;stroke-linecap:round}
+    .str0 {stroke:#4D4D4D;stroke-width:42.33;stroke-linecap:round;stroke-linejoin:round}
+    .str4 {stroke:#4D4D4D;stroke-width:42.33;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+    .fil2 {fill:#5B5B5B}
+    .fil1 {fill:#4D4D4D;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polyline class="fil0 str0" points="1516,1608 1516,1723 808,1723 808,858 1162,477 1517,858 1516,1140 "/>
+  <polygon class="fil0 str1" points="808,858 1162,477 1517,858 1646,855 1162,330 675,855 "/>
+  <rect class="fil0 str2" x="998" y="1043" width="339.397" height="93.2827" rx="14" ry="12"/>
+  <path class="fil0 str2" d="M1296 1043l-255 0 0 -215c0,-13 10,-23 23,-23l210 0c12,0 22,10 22,23l0 215z"/>
+  <path class="fil0 str2" d="M1290 1723l-255 0 0 -430c0,-14 11,-24 24,-24l207 0c13,0 24,10 24,24l0 430z"/>
+  <rect class="fil0 str2" x="52" y="1624" width="528.508" height="99.383" rx="15" ry="18"/>
+  <path class="fil0 str2" d="M212 1624c-8,-74 44,-102 107,-76 41,-93 160,-71 164,7 47,0 64,40 46,69"/>
+  <path class="fil0 str2" d="M104 1624c-5,-125 113,-167 175,-86"/>
+  <line class="fil0 str3" x1="1666" y1="1723" x2="24" y2= "1723" />
+  <rect class="fil0 str2" x="368" y="242" width="294.778" height="93.2827" rx="12" ry="12"/>
+  <rect class="fil0 str2" x="404" y="335" width="221" height="175"/>
+  <path class="fil0 str1" d="M1034 465l-409 0m-225 0l-106 0 -135 180 712 -4"/>
+  <polyline class="fil0 str1" points="808,954 162,954 27,1134 808,1131 "/>
+  <line class="fil0 str2" x1="258" y1="644" x2="258" y2= "954" />
+  <path class="fil0 str2" d="M258 721l307 0c11,0 19,9 19,19l0 114c0,10 -8,19 -19,19l-307 0 0 -152z"/>
+  <line class="fil0 str2" x1="477" y1="721" x2="477" y2= "865" />
+  <line class="fil0 str3" x1="1099" y1="1485" x2="1099" y2= "1548" />
+  <line class="fil0 str2" x1="138" y1="1134" x2="138" y2= "1523" />
+  <rect class="fil0 str2" x="614" y="1268" width="119" height="284" rx="15" ry="15"/>
+  <path class="fil0 str2" d="M420 1490l0 -206c0,-9 7,-16 15,-16l89 0c8,0 15,7 15,16l0 252c0,9 -7,16 -15,16l-18 0"/>
+  <path class="fil0 str2" d="M222 1503l0 -219c0,-9 7,-16 15,-16l89 0c8,0 15,7 15,16l0 220"/>
+  <polygon class="fil0 str1" points="1515,1123 1556,1205 1597,1288 1515,1288 1433,1288 1474,1205 "/>
+  <path class="fil1" d="M1593 1293l52 104c5,9 1,20 -8,25 -3,1 -6,2 -9,2l-228 0c-10,0 -18,-9 -18,-19 0,-3 0,-6 2,-9l52 -103 41 0 -47 93 168 0 -43 -87 -4 -6 42 0z"/>
+  <path class="fil1" d="M1620 1415l70 131c5,9 1,20 -8,25 -3,1 -6,2 -8,2l-314 0c-10,0 -19,-9 -19,-19 0,-3 1,-6 3,-9l70 -130 42 0 -66 120 253 0 -62 -113 -3 -7 42 0z"/>
+  <path class="fil0 str4" d="M1843 323c6,32 3,66 -9,96 -35,98 -143,148 -240,112 -97,-35 -147,-143 -112,-240 36,-97 144,-147 241,-112"/>
+  <line class="fil0 str4" x1="1565" y1="29" x2="1752" y2= "29" />
+  <line class="fil0 str5" x1="1598" y1="29" x2="1598" y2= "126" />
+  <line class="fil0 str5" x1="1719" y1="29" x2="1719" y2= "126" />
+  <polyline class="fil0 str4" points="1658,237 1658,355 1752,355 "/>
+  <path class="fil2" d="M1658 88c148,0 267,120 267,267 0,147 -119,267 -267,267 -147,0 -266,-120 -266,-267 0,-147 119,-267 266,-267zm0 43c124,0 225,100 225,224 0,124 -101,224 -225,224 -123,0 -224,-100 -224,-224 0,-124 101,-224 224,-224z"/>
+ </g>
+</svg>
