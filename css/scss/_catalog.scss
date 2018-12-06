@@ -83,19 +83,12 @@
     .catalog-content-section-items {
         width: 100%;
 
-        .catalog-content-section-filters {
-            margin-bottom: 55px;
-
-            .catalog-content-section-selected-filters {
-                flex-wrap: wrap;
-                padding: 0;
-            }
-
-            .catalog-content-section-items-per-page {
-                height: 30px;
-            }
+        .catalog-content-section-items-per-page {
+            height: 30px;
+			margin-bottom: 32px;
+			padding: 0;
         }
-
+			
         .catalog-content-section-items-grid {
             min-height: 1000px;
             padding: 0;
@@ -147,33 +140,6 @@
 
             .pages-list {
                 padding: 0;
-
-                .number-label {
-                    margin-right: 10px;
-                }
-            }
-
-            .go-to-page {
-                height: 30px;
-                padding: 0;
-
-                form {
-                    input {
-                        background-color: rgba(77, 77, 77, 0.1);
-                        border: 0;
-                        margin-right: 15px;
-                        padding: 0 5px;
-                        width: 70px;
-                    }
-
-                    button {
-                        @extend %ordinary-white-text;
-                        border: 0;
-                        background-color: $orange;
-                        cursor: pointer;
-                        text-transform: uppercase;
-                    }
-                }
             }
         }
     }
@@ -202,6 +168,10 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
+	margin-left: 10px;
+}
+.number-label :last-child{
+	margin-left: 0;
 }
 
 .number-label.active {
