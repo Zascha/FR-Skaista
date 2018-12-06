@@ -1,0 +1,226 @@
+.catalog-content-section {
+    margin: 50px auto;
+    padding: 0;
+
+    .catalog-content-section-menu {
+        margin-right: 50px;
+        width: 30%;
+    }
+
+    .catalog-content-section-menu {
+        .navbar {
+            background-color: transparent !important;
+            padding: 0;
+
+            .navbar-header {
+                @extend %ordinary-grey-text;
+                font-size: $headers-size;
+                font-weight: bold;
+                margin-bottom: 25px;
+                text-align: left;
+                text-transform: uppercase;
+                width: 100%;
+            }
+
+            .navbar-toggler img {
+                @include square-icon(20px);
+                @include rotated(90deg);
+            }
+
+            .navbar-collapse {
+                width: 100%;
+
+                .menu-item {
+                    margin-bottom: 15px;
+                    width: 100%;
+
+                    .menu-item-header {
+                        @extend %ordinary-grey-text;
+                        background-color: rgba(77, 77, 77, 0.1);
+                        font-weight: bold;
+                        padding: 5px;
+                    }
+
+                    .card {
+                        border: none;
+
+                        .card-header {
+                            border-bottom: none;
+                            background-color: transparent;
+                            margin-bottom: 10px;
+                            padding: 0;
+
+                            button {
+                                padding: 0;
+                                text-decoration: none;
+                                width: 100%;
+
+                                .menu-item-header {
+                                    @extend %ordinary-grey-text;
+                                    cursor: pointer;
+                                    font-weight: bold;
+                                    width: 100%;
+
+                                    img {
+                                        @include square-icon(12px);
+                                        @include rotated(90deg);
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .card-body {
+                            padding: 0;
+                            padding-left: 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .catalog-content-section-items {
+        width: 100%;
+
+        .catalog-content-section-filters {
+            margin-bottom: 55px;
+
+            .catalog-content-section-selected-filters {
+                flex-wrap: wrap;
+                padding: 0;
+            }
+
+            .catalog-content-section-items-per-page {
+                height: 30px;
+            }
+        }
+
+        .catalog-content-section-items-grid {
+            min-height: 1000px;
+            padding: 0;
+
+            .catalog-items-grid {
+                flex-wrap: wrap;
+                width: 100%;
+
+                .catalog-grid-item {
+                    margin-bottom: 50px;
+                    width: 48%;
+
+                    .catalog-grid-item-preview {
+                        background-size: cover;
+                        cursor: pointer;
+                        min-height: 240px;
+                        position: relative;
+                        width: 100%;
+
+                        .preview-button {
+                            @include square-icon(60px);
+                            background-color: rgba(256, 256, 256, 0.9);
+                            border-radius: 50%;
+                            display: none !important;
+
+                            img {
+                                @include square-icon(30px);
+                            }
+                        }
+                    }
+
+                    .catalog-grid-item-preview:hover {
+                        .preview-button {
+                            display: flex !important;
+                        }
+                    }
+
+                    .catalog-grid-item-title {
+                        font-weight: bold;
+                        margin: 5px 0;
+                        word-wrap: break-word;
+                    }
+                }
+            }
+        }
+
+        .catalog-content-section-pagging {
+            margin-top: 30px;
+
+            .pages-list {
+                padding: 0;
+
+                .number-label {
+                    margin-right: 10px;
+                }
+            }
+
+            .go-to-page {
+                height: 30px;
+                padding: 0;
+
+                form {
+                    input {
+                        background-color: rgba(77, 77, 77, 0.1);
+                        border: 0;
+                        margin-right: 15px;
+                        padding: 0 5px;
+                        width: 70px;
+                    }
+
+                    button {
+                        @extend %ordinary-white-text;
+                        border: 0;
+                        background-color: $orange;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.selected-filter {
+    align-items: center;
+    background-color: rgba(77, 77, 77, 0.1);
+    display: flex;
+    padding: 2px 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: auto;
+
+    img {
+        @include square-icon(10px);
+        cursor: pointer;
+        margin-left: 10px;
+    }
+}
+
+.number-label {
+    @include square-icon(30px);
+    align-items: center;
+    background-color: rgba(77, 77, 77, 0.1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.number-label.active {
+    background-color: $orange;
+    color: $white;
+}
+
+.number-label.arrow {
+    background-color: transparent;
+    font-weight: bold;
+
+    img {
+        height: 20px;
+        width: auto;
+    }
+}
+
+.number-label.arrow:first-child {
+    img {
+        @include rotated(180deg);
+    }
+}

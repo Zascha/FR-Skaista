@@ -6,3 +6,11 @@
 @mixin backround-transperent-grey($transperancyPercent) {
     background-color: rgba(77, 77, 77, $transperancyPercent);
 }
+
+@mixin rotated($degree) {
+    -moz-transform: rotate($degree);
+    -ms-transform: rotate($degree);
+    -webkit-transform: rotate($degree);
+    -o-transform: rotate($degree);
+    transform: rotate($degree);
+}
