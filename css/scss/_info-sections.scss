@@ -10,6 +10,7 @@
 
     .info-section-content {
         margin-bottom: 50px;
+
         @media (max-width: 991.98px) {
             flex-direction: column;
         }
@@ -64,9 +65,9 @@
 
         .carousel-item {
             height: 500px;
-			
+
             img {
-				height: 500px;
+                height: 500px;
                 width: 100%;
 
                 @media (max-width: 991.98px) {
@@ -101,7 +102,7 @@
 
                 @media (max-width: 991.98px) {
                     height: 80%;
-                    width:80%;
+                    width: 80%;
                 }
             }
 
@@ -128,7 +129,7 @@
 }
 
 .section-investment {
-    .carousel-item iframe{
+    .carousel-item iframe {
         height: 100%;
         width: 100%;
     }

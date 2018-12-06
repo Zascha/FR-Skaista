@@ -56,16 +56,24 @@
 
         .section-start-form-block-header {
             @extend %ordinary-grey-text;
-            font-size: $headers-size;
             font-weight: bold;
             padding-bottom: 10px;
+            padding-right: 30px;
             text-transform: uppercase;
 
             .section-start-form-block-company {
                 margin-right: 10px;
 
                 img {
-                    @include square-icon(45px);
+                    @include square-icon(50px);
+                    padding-top: -5px;
+                }
+            }
+
+            .section-start-form-block-real-estate {
+                div:first-child {
+                    color: $grey;
+                    font-size: $headers-size;
                 }
             }
         }

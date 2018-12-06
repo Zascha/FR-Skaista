@@ -5,18 +5,18 @@
 .section-contacts {
     background-color: $grey;
     padding-top: 50px;
-	
+
     .section-contacts-data {
-		@media (max-width: 991.98px) {
-			flex-direction: column;
-		}
-		
+        @media (max-width: 991.98px) {
+            flex-direction: column;
+        }
+
         .section-contacts-data-item {
             width: 48%;
-			
-			@media (max-width: 991.98px) {
-			   width: 100%;
-			}
+
+            @media (max-width: 991.98px) {
+                width: 100%;
+            }
 
             .section-contacts-data-item-header {
                 color: $white;
@@ -30,15 +30,15 @@
                 color: $white;
                 margin-bottom: 50px;
 
-				.phone-email-data{
-					@media (max-width: 991.98px) {
-						flex-direction: column;
-					}
-				}
-				
+                .phone-email-data {
+                    @media (max-width: 991.98px) {
+                        flex-direction: column;
+                    }
+                }
+
                 .content-row {
                     margin-bottom: 30px;
-					
+
                     ul {
                         padding-inline-start: 20px;
                     }
@@ -78,103 +78,104 @@
             }
         }
     }
-	
-	.section-contacts-map {
-		padding: 0;
-		position: relative;
-		
-		@media (max-width: 991.98px) {
-			flex-direction: column;
-		}
-		
-		.mapouter{
-			background-color: rgba(77, 77, 77, 0.5);
-			height:400px;
-			overflow: hidden;
-			width:100%;
-			z-index: 25;
-		}
-		
-		.gmap_canvas {
-			height:400px;
-			width:100%;
-		}
-		
-		.feedback-form-block{
-			position: absolute;
-			
-			@media (max-width: 991.98px) {
-				flex-direction: column;
-				position: relative;
-				max-height: 360px;
-				min-width: 80%;
-			}
-			
-			.feedback-form-block-half{				
-				width: 48%;
-				
-				@media (max-width: 991.98px) {
-					width: 100%;
-				}
-			}	
 
-			.feedback-form{
-				background-color: $white;
-				z-index: 50;
-				
-				.feedback-form-header{
-					@extend %ordinary-white-text;
-					background-color: $orange;
-					margin-bottom: 20px;
-					padding: 5px 30px;
-					text-transform: uppercase;					
-				}
-				
-				.bottom-feedback-form-validation-message{
-					color: #d44950;
-					display: none;
-					margin-bottom: 20px;
-					text-align: center;
-				}
-				
-				form{
-					padding: 0 30px;
-					.submit-button{
-						@extend %submit-button;
-					}
-				}
-			}			
-		}
+    .section-contacts-map {
+        padding: 0;
+        position: relative;
+
+        @media (max-width: 991.98px) {
+            flex-direction: column;
+        }
+
+        .mapouter {
+            background-color: rgba(77, 77, 77, 0.5);
+            height: 400px;
+            overflow: hidden;
+            width: 100%;
+            z-index: 25;
+        }
+
+        .gmap_canvas {
+            height: 400px;
+            width: 100%;
+        }
+
+        .feedback-form-block {
+            position: absolute;
+
+            @media (max-width: 991.98px) {
+                flex-direction: column;
+                position: relative;
+                max-height: 360px;
+                min-width: 80%;
+            }
+
+            .feedback-form-block-half {
+                width: 48%;
+
+                @media (max-width: 991.98px) {
+                    width: 100%;
+                }
+            }
+
+            .feedback-form {
+                background-color: $white;
+                z-index: 50;
+
+                .feedback-form-header {
+                    @extend %ordinary-white-text;
+                    background-color: $orange;
+                    margin-bottom: 20px;
+                    padding: 5px 30px;
+                    text-transform: uppercase;
+                }
+
+                .bottom-feedback-form-validation-message {
+                    color: #d44950;
+                    display: none;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+
+                form {
+                    padding: 0 30px;
+
+                    .submit-button {
+                        @extend %submit-button;
+                    }
+                }
+            }
+        }
     }
 }
 
 .section-contacts-copywright {
-		color: $white;
-		background-color: $grey;
-		padding: 25px 0;		
-		
-		.copywright-block {
-		
-			@media (max-width: 991.98px) {
-				flex-direction: column;
-			}
-			
-			a{ 
-				color: $white;
-				font-weight: bold;
-			}		
-			
-			div:last-child{
-				text-align: right;
-			}
-			
-			div{
-				text-align: left;
-				
-				@media (max-width: 991.98px) {
-					text-align: center !important;
-					min-width: 100%;
-				}
-		}
-		}
-	}
+    color: $white;
+    background-color: $grey;
+    padding: 25px 0;
+
+    .copywright-block {
+
+        @media (max-width: 991.98px) {
+            flex-direction: column;
+        }
+
+        a {
+            color: $white;
+            font-weight: bold;
+        }
+
+        div:last-child {
+            text-align: right;
+        }
+
+        div {
+            text-align: left;
+
+            @media (max-width: 991.98px) {
+                text-align: center !important;
+                min-width: 100%;
+            }
+        }
+    }
+}

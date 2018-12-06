@@ -24,10 +24,10 @@
     font-size: $headers-size;
 }
 
-%submit-button{
-	@extend %ordinary-white-text;
-	border: 0;
-	border-radius: 0;
-	background-color: $orange;
-	text-transform: uppercase;
+%submit-button {
+    @extend %ordinary-white-text;
+    border: 0;
+    border-radius: 0;
+    background-color: $orange;
+    text-transform: uppercase;
 }
