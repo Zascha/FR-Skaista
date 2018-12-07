@@ -84,13 +84,22 @@
             width: 80%;
         }
 
-        .top-feedback-form-validation-message {
-            color: #d44950;
+        .feedback-form-validation-message {
             display: none;
             text-align: center;
         }
 
-        .top-feedback-form {
+        .feedback-form-validation-message.error {
+            color: #d44950;
+            display: flex;
+        }
+
+        .feedback-form-validation-message.success {
+            color: #2e7d32;
+            display: flex;
+        }
+
+        .feedback-form {
             padding-top: 30px;
 
             .form-group {
@@ -102,6 +111,12 @@
 
                 .submit-button {
                     @extend %submit-button;
+                }
+
+                .form-control-error {
+                    color: #d44950;
+                    display: none;
+                    margin-left: 15px;
                 }
             }
 
