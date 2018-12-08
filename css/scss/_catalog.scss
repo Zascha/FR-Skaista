@@ -48,7 +48,7 @@
                 input {
                     border: 0;
                     background-color: rgba(77, 77, 77, 0.1);
-					padding: 2px 5px;
+                    padding: 2px 5px;
                 }
 
                 #slider-range {
@@ -112,7 +112,7 @@
         .catalog-content-section-items-per-page {
             height: 30px;
             margin-bottom: 32px;
-            padding: 0;	
+            padding: 0;
             padding: 0;
 
             div:last-child {
@@ -121,8 +121,8 @@
         }
 
         .catalog-content-section-items-grid {
-			flex-wrap: wrap;
-            padding: 0;			
+            flex-wrap: wrap;
+            padding: 0;
             width: 100%;
 
             @media (max-width: 991.98px) {
@@ -154,23 +154,23 @@
                             @include square-icon(30px);
                         }
                     }
-				}
-				
+                }
+
                 .catalog-grid-item-title {
                     font-weight: bold;
                     margin: 5px 0;
                     word-wrap: break-word;
                 }
-				
-				.catalog-grid-item-preview:hover  .preview-button {
+
+                .catalog-grid-item-preview:hover .preview-button {
                     display: flex !important;
                 }
-			}
+            }
         }
 
         .catalog-content-section-pagging {
             margin-top: 30px;
-			padding: 0;
+            padding: 0;
         }
     }
 }

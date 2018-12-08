@@ -9,8 +9,6 @@
 @import '_contacts-sections';
 @import '_catalog';
 
-/*.catalog-content-section, .catalog-content-section div { border: 1px solid red;}*/
-
 a, a:hover, a:active, a:visited {
     cursor: pointer;
     text-decoration: none;
@@ -22,17 +20,4 @@ textarea {
 
 .container-fluid {
     cursor: default;
-}
-
-.mapouter {
-    background-color: rgba(77, 77, 77, 0.5);
-    height: 400px;
-    overflow: hidden;
-    width: 100%;
-    z-index: 25;
-}
-
-.gmap_canvas {
-    height: 400px;
-    width: 100%;
 }
