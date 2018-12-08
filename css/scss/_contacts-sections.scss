@@ -104,6 +104,10 @@
                     width: 100%;
                 }
             }
+			
+			.feedback-form-block-half:last-child{
+				box-shadow: 0 0 5px #151514;
+			}
 
             .feedback-form {
                 background-color: $white;
