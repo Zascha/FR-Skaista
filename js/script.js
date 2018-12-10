@@ -33,11 +33,6 @@ $(document).ready(function () {
         activateNumericLabel($(this));
         queryData();
     });
-
-    $('.catalog-content-section-pagging .number-label').click(function () {
-        activateNumericLabel($(this));
-        queryData();
-    });
 });
 
 //#region Page load actions
@@ -57,13 +52,13 @@ function initFilters() {
         setNumberLabels('.catalog-content-section-items-per-page', itemsPerPage);
 
         var types = getUrlParam(typesParam);
-        setMenuCheckboxValues('#collapseTypes', types);
+        if(types !== undefined) setMenuCheckboxValues('#collapseTypes', types);
 
         var districts = getUrlParam(districtParam);
-        setMenuCheckboxValues('#collapseDistricts', districts);
+        if(districts !== undefined) setMenuCheckboxValues('#collapseDistricts', districts);
 
         var variants = getUrlParam(variantsParam);
-        setMenuCheckboxValues('#collapseVariants', variants);
+        if(variants !== undefined) setMenuCheckboxValues('#collapseVariants', variants);
     }
 }
 
@@ -140,7 +135,7 @@ function setMenuCheckboxValues(containerId, chechedValues) {
 //#region Query request
 
 function queryData() {
-    var requestUrl = "file:///D:/FR-Skaista/Catalog.html"; // TODO: To update!
+    var requestUrl = "file:///C:/Users/Aliaksandra_Zakharav/Documents/HardDirtyWork/Skaista/Catalog.html"; // TODO: To update!
     var queryUrl = formQueryString();
 
     document.location.href = requestUrl + queryUrl;
@@ -242,14 +237,16 @@ function activateNumericLabel(clickedElement) {
     var checkedIndex = clickedElement.parent().find('.active').index();
     var updatingIndex = clickedElement.index();
 
-    if (updatingIndex == 0) {
-        if (checkedIndex > 1) updatingIndex = checkedIndex - 1;
-        else return;
-    }
-    if (updatingIndex == numberLabels.length - 1) {
-        if (checkedIndex < numberLabels.length - 2) updatingIndex = checkedIndex + 1;
-        else return;
-    }
+	if(clickedElement.hasClass('arrow')){
+		if (updatingIndex == 0) {
+			if (checkedIndex > 1) updatingIndex = checkedIndex - 1;
+			else return;
+		}
+		if (updatingIndex == numberLabels.length - 1) {
+			if (checkedIndex < numberLabels.length - 2) updatingIndex = checkedIndex + 1;
+			else return;
+		}
+	}
 
     $.each(numberLabels, function (index, value) {
         $(value).removeClass('active');
